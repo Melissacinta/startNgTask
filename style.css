@@ -56,17 +56,6 @@ hr{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .contact-modal{
     height: 100vh;
     width: 100%;
@@ -75,7 +64,7 @@ hr{
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-    background:rgb(80, 94, 97);
+    background:#dcefef;
     display: flex;
     justify-content: center;
     align-items: center;
