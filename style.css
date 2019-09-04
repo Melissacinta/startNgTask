@@ -28,12 +28,12 @@ h3{
 .date{
     float:left;
     width: 20%;
-    text-align: center
+    text-align: center;
 }
 .story{
     float:left;
     margin-left: 10px;
-    word-wrap: break-word;;
+    word-wrap: break-word;
 }
 .clear{
     clear: left;
