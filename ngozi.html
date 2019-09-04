@@ -5,51 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My CV</title>
-    <style>
-        .container{
-            width: 60%;
-            margin: auto;
-            border-bottom: none;
-            background: url(chem.jpg) no-repeat;
-            background-size: cover;
-        }
-        .overlay{
-            background: rgba(255, 255, 255, 0.8);
-        }
-        img{
-            border: 2px dotted blue;
-            border-radius: 50%;
-        }
-        h3{
-            color:darkblue;
-        }
-        /* div{
-            border-bottom: 1px solid blue;
-        } */
-        .date{
-            float:left;
-            width: 20%;
-        }
-        .story{
-            float:left;
-            margin-left: 10px;
-            word-wrap: break-word;;
-        }
-        .clear{
-            clear: left;
-        }
-        hr{
-            border:1px solid blue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
 
         <div class="overlay">
-                <center><img src="https://res.cloudinary.com/lissacinta/image/upload/c_scale,h_264/v1566558544/IMG_20190810_140030_r147u0.jpg"></center>
             <!-- personal info -->
         <div class="personal-info">
+                <center><img src="https://res.cloudinary.com/lissacinta/image/upload/c_scale,h_264/v1566558544/IMG_20190810_140030_r147u0.jpg"></center>
                 <h3> Ngozi Aguluka</h3>
                 <h4>Web Developer(front End)</h4>
                 <p>
@@ -66,14 +30,18 @@
                 </p>
             </div>
             <!-- skills -->
-            <div>
+            <div class="skills">
                 <h3>Skills</h3>
                 <hr>
                 <p>
-                    Web design (Html, CSS, Bootstrap, Photoshop) <br>
-                    Leadership skills<br>
-                    Confidentiality<br>
-                    Software Proficiency
+                    Good Analytical Skills.<br>
+                    Fluent in English.<br>
+                    Fast Learner.<br>
+                    Computer Literate.<br>
+                    Web design (Html, CSS, Bootstrap, Photoshop). <br>
+                    Leadership skills.<br>
+                    Confidentiality.<br>
+                    Software Proficiency.
                 </p>
             </div>
             <!-- work history -->
@@ -152,8 +120,52 @@
                     Reading, playing with codes, swimming.
                 </p>
             </div>
+            <div class="refs">
+                <h3>Refrences</h3>
+                <hr>
+                <p>
+                    Available on Request
+                </p>
+            </div>
+            
+                
         </div>
     </div>
-    
+    <div id="modal-with-form" class="contact-modal hide-modal">
+        <div class="form_container">  
+                <form id="contact-form">
+                  <h3>Wanna reach me?.</h3>
+                  <h4>Fill this form and get reply with in 24 hours!</h4>
+                  <span id="close-btn">&times;</span>
+
+                  <fieldset>
+                    <input type="text" id="title" required autofocus placeholder="Message Title">
+                    
+                  </fieldset>
+
+                  
+                  <fieldset>
+                    <input type="text" id="name" required minlength="4" placeholder="Your Name">
+                    
+                  </fieldset>
+                  <fieldset>
+                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    
+                  </fieldset>
+                  
+                 
+                  <fieldset>
+                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" id="contact-submit">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+    <div class="contact-modal-open-btn">
+        <h2>Contact me.</h2>
+    </div>
+  <script src="script.js"></script>  
 </body>
 </html>
