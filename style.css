@@ -56,9 +56,12 @@ hr{
 }
 
 
+@media (max-width: 585px) {
+    .date{
+        width: 100%;
+    }
 
-
-
+}
 
 
 
@@ -75,7 +78,7 @@ hr{
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-    background:rgb(80, 94, 97);
+    background:#DCEFEF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +138,7 @@ fieldset {
 	border: medium none !important;
 	margin: 0 0 10px;
 	min-width: 100%;
-	padding: 0;
+	padding:0;
     width: 100%;
     position: relative;
 
