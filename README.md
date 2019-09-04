@@ -8,3 +8,5 @@ https://lucid.blog/melissacinta/post/1566517413
 
 No lucid blog post was unable to create one
 master
+
+added more css and javascript to my cv
