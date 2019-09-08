@@ -133,34 +133,35 @@
     </div>
     <div id="modal-with-form" class="contact-modal hide-modal">
         <div class="form_container">  
-                <form id="contact-form">
+                <form id="contact-form" method="POST" action="phphandling.php" >
                   <h3>Want to get in touch with me?.</h3>
                   <h4>Fill this form and I will reply within 24 hours!</h4>
                   <span id="close-btn">&times;</span>
 
                   <fieldset>
-                    <input type="text" id="title" required autofocus placeholder="Message Title">
+                    <input type="text"name="title" id="title" required autofocus placeholder="Message Title">
                     
                   </fieldset>
 
                   
                   <fieldset>
-                    <input type="text" id="name" required minlength="4" placeholder="Your Name">
+                    <input type="text" name="name" id="name" required minlength="4" placeholder="Your Name">
                     
                   </fieldset>
                   <fieldset>
-                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    <input type="email" name="email" id="email" required placeholder="Your Email Here...">
                     
                   </fieldset>
                   
                  
                   <fieldset>
-                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                    <textarea name="message" id="message" minlength="20" required placeholder="Type your message here..."></textarea>
                   </fieldset>
                   <fieldset>
                     <button name="submit" id="contact-submit">Submit</button>
                   </fieldset>
                 </form>
+                
               </div>
             </div>
     <div class="contact-modal-open-btn">
