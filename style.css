@@ -28,12 +28,12 @@ h3{
 .date{
     float:left;
     width: 20%;
-    text-align: center
+    text-align: center;
 }
 .story{
     float:left;
     margin-left: 10px;
-    word-wrap: break-word;;
+    word-wrap: break-word;
 }
 .clear{
     clear: left;
@@ -54,20 +54,10 @@ hr{
 .refs{
     padding: 20px;
 }
-
-
 @media (max-width: 585px) {
     .date{
         width: 100%;
     }
-
-}
-
-
-
-
-
-
 
 
 .contact-modal{
@@ -78,7 +68,7 @@ hr{
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-    background:#DCEFEF;
+    background:#505E61;
     display: flex;
     justify-content: center;
     align-items: center;
